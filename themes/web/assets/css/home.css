@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'system-ui';
+    font-weight: 600;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg,#404040f7,#000000fb);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    width: 100px;
+    height: 100px;
+}
+ 
+.logo{
+    display: flex;
+    position: absolute;
+    left: 100px;
+
+}
+
+ul{
+    text-transform: uppercase;
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    list-style: none;
+    gap: 0 15px;
+
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 1.2em;
+    gap: 0 35px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    transition: 1s;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 500px;
+}
+
+.content img{
+    display: flex;
+    position: absolute;
+    width: 50em;
+    right: 55px;
+}
+
+.about{
+    color: #fff;
+    width: 300px;
+    height: 400px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-right: 500px;
+    left: 55px;
+}
+
+.about h2{
+    font-size: 2.4rem;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #202426;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}

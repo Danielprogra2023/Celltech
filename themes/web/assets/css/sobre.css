@@ -1,0 +1,44 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.title {
+    text-align: center;
+    color: black;
+}
+
+.slogan {
+    text-align: center;
+    color: black;
+}
+
+.section-title {
+    color: black;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.values {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.contact {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.contact li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact li a:hover {
+    text-decoration: underline;
+}

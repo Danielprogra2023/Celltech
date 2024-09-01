@@ -1,0 +1,149 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f8fc;
+
+}
+
+/* Estilo do Menu Lateral */
+.sidebar {
+    background-color: #2f3542;
+    color: #fff;
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.sidebar a {
+    display: block;
+    color: #ced6e0;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 10px 0;
+    border-left: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #57606f;
+    border-left: 3px solid #1e90ff;
+    color: #fff;
+}
+
+
+/* Estilo do Cabeçalho */
+header {
+    background-color: #ffffff;
+    width: calc(50% - 250px);
+    margin-left: 250px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header .user-info span {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilo do Conteúdo Principal */
+.main-content {
+    margin-left: 250px;
+    padding: 100px 320px;
+    background-color: #f7f8fc;
+    flex-grow: 1;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+}
+
+.user-list {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-list th, .user-list td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-list th {
+    background-color: #1e90ff;
+    color: #ffffff;
+}
+
+.user-list tr:hover {
+    background-color: #f1f1f1;
+}
+
+.user-list td img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions .edit {
+    background-color: #1e90ff;
+    color: #ffffff;
+}
+
+.actions .edit:hover {
+    background-color: #1c7ed6;
+}
+
+.actions .delete {
+    background-color: #ff4757;
+    color: #ffffff;
+}
+
+.actions .delete:hover {
+    background-color: #e63946;
+}
